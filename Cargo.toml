@@ -4,3 +4,7 @@ version = "0.1.0"
 authors = ["Pierre Donat-Bouillud <pierre.donat-bouillud@ircam.fr>"]
 
 [dependencies]
+rust-crypto = "0.2.36"
+
+[lib]
+name = "adventofcode"
