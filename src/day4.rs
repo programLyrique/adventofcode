@@ -24,6 +24,7 @@ pub fn day4(s : &str, start_pattern: &str) -> u32 {
 mod tests {
     use super::day4;
     #[test]
+    #[ignore]
     fn day4_first_test() {
         assert_eq!(day4("abcdef", "00000"), 609043);
         assert_eq!(day4("pqrstuv", "00000"), 1048970);

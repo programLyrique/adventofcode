@@ -10,7 +10,7 @@ use std::path::Path;
 use core::fmt;
 
 
-use adventofcode::day4::*;
+use adventofcode::day7::*;
 
 fn load_file<T: AsRef<Path> + fmt::Display >(filename: T) -> String {
     let mut file = match File::open(&filename) {
@@ -35,8 +35,7 @@ fn main() {
 
     let file_str = load_file(&args[1]);
 
-    day4("ckczppom", "00000");
-    day4("ckczppom", "000000");
+    day7_first(&file_str);
 
     println!("Done!");
 }

@@ -5,6 +5,7 @@ authors = ["Pierre Donat-Bouillud <pierre.donat-bouillud@ircam.fr>"]
 
 [dependencies]
 rust-crypto = "0.2.36"
+nom = "*"
 
 [lib]
 name = "adventofcode"
